@@ -6,7 +6,7 @@ from os import path
 print("UsernameGenerator.py - Simple username generator based on a list of name and surname")
 
 if len(sys.argv)!=3:
-  print("Usage: python3 script.py [user file] [output file]")
+  print("Usage: python3 UsernameGenerator.py [user file] [output file]")
   exit()
 
 # arguments
